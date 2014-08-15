@@ -27,7 +27,8 @@
   <body>
     <div class="wrapper">
       <header>
-        <p><a href="{{ site.baseurl }}/" class="header-logo"><img src="{{ site.baseurl }}/images/title-beta2.png" /></a></p>
+        <!-- Image title-beta2 resolution is 450x75 -->
+        <p><a href="http://www.appyform.com" target="new" class="header-logo"><img src="{{ site.baseurl }}/images/title-beta2.png" width="220" height="37"/></a></p>
         <h2>Documentation</h2>
 
         <div><a href="{{ site.baseurl }}/index.html">Overview</a></div>
@@ -46,6 +47,9 @@
       </header>
       <section>
         {{ content }}
+
+        {% include comment-intro.html %}
+        {% include disqus.html disqus_identifier=page.disqus_identifier %}
       </section>
 
       <footer>
