@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+    <meta name="author" content="{{ site.name }}" />
+    <meta name="description" content="{{ site.description }}">
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!--
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+    -->
+    <link rel="stylesheet" href="{{ site.baseurl }}/stylesheets/styles.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/stylesheets/pygment_trac.css">
+
+    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+  </head>
+
+
+  <body>
+    <div class="wrapper">
+      <header>
+        <p><a href="{{ site.baseurl }}/" class="header-logo"><img src="{{ site.baseurl }}/images/title-beta2.png" /></a></p>
+        <h2>Documentation</h2>
+
+        <div><a href="{{ site.baseurl }}/index.html">Overview</a></div>
+        <br/>
+
+        <div><strong>iOS</strong></div>
+        <div><a href="{{ site.baseurl }}/page/ios-add-form-to-app.html">Add AppyForm to your iOS app</a></div> 
+        <div><a href="">iOS sample projects</a></div> 
+        <br/>
+
+        <div><strong>Android</strong></div>
+        <div><a href="">Add AppyForm to your Android app</a></div> 
+        <div><a href="">Android sample projects</a></div> 
+        <br/>
+
+      </header>
+      <section>
+        {{ content }}
+      </section>
+
+      <footer>
+        <p>&copy; <a href="http://www.appyform.com">appyform</a></p>
+      </footer>
+    </div>
+
+    <script src="javascripts/scale.fix.js"></script>
+    {% include analytics.html %}
+  </body>
+
+</html>
