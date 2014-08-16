@@ -20,7 +20,7 @@ Just remember to **update the access key** in the URL to your own. The access ke
 
 ### Using UIWebView
 
-If you prefer to display our feedback form in your own custom view or UIViewController you can use a UIWebView like the codes below. This is also how we coded FeedbackViewController,  
+If you prefer to display our form in your own custom view or view controller, you can use a UIWebView like the codes below. This is also how we coded FeedbackViewController,  
 
 
     UIWebView *webView = [[UIWebView alloc] initWithFrame:self.view.frame];
