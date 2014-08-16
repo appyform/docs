@@ -23,7 +23,7 @@ First of all, [sign-up](http://www.appyform.com/) with us for free if you have n
 
 Once you have an account, follow the instructions for you platform: 
 
-- iOS - [Follow me]()
-- Android - [This way please]()
-- Neither? [We are here]()
+- iOS - [Follow me]({{ site.baseurl }}/page/ios-add-form-to-app.html)
+- Android - [This way please]({{ site.baseurl }}/page/android-add-form-to-app.html)
+- Neither? [We are here]({{ site.baseurl }}/page/generic-add-form-to-app.html)
 
