@@ -8,9 +8,9 @@ AppyForm is a service for **app developers** to add a feedback form to their app
 
 ### Why show a feedback form? 
 
-**Every app needs to collect feedback** in order to engage its users and to improve continously. Have you been receiving regular feedback from your users? Your competitors do.
+**Every app needs to collect feedback** in order to engage its users and to improve continously. Have you been receiving regular feedback from your users? Your competitors have.
 
-We know that building a form is a lot of work:
+Building a feedback form is a lot of work:
 
 - Setting up the hosting infrastructure, and 
 - Developing and maintaining a backend service, and
