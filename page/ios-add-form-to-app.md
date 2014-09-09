@@ -8,7 +8,7 @@ Unlike some other service providers, our service does not require adding a third
 How is this possible? Our form is simply a website, so you can use standard UI components to display it. 
 
 
-### Sample projects
+## Sample projects
 
 Choose from our sample projects below. Each of them has a `FeedbackViewController` that uses a `UIWebView` to display the feedback form. 
 

@@ -1,12 +1,12 @@
 
-## Welcome!
+# Welcome!
 
-### What is AppyForm?
+## What is AppyForm?
 
 AppyForm is a service for **app developers** to add a feedback form to their apps, no matter it's iOS, Android, Windows or other platforms. 
 
 
-### Why show a feedback form? 
+## Why show a feedback form? 
 
 **Every app needs to collect feedback** in order to engage its users and to improve continously. Have you been receiving regular feedback from your users? Your competitors have.
 
@@ -19,7 +19,7 @@ Building a feedback form is a lot of work:
 We built AppyForm to save you from all these work!
 
 
-### Why choose AppyForm?
+## Why choose AppyForm?
 
 There are many reasons why we may be your best option. Let us highlight one for you: With AppyForm, **you don't 
 need to integrate a third-party library from us**. A few benefits follow,
@@ -32,7 +32,7 @@ On top of that, our services are free (and very affordable if you choose our pre
 customizable, and we are passionate about our work - we use our forms in our own apps!
 
 
-### "Cool, where do I start?"
+## "Cool, where do I start?"
 
 Easy! [Sign-up](http://www.appyform.com/) with us for free if you have not done so already. Once you have an account, follow these instructions: 
 
